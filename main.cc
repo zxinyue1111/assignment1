@@ -22,7 +22,6 @@ int cgTestPrintReservations();
 int main(){
     int choice = -1;
     while(choice != 0 && cin.good()){
-        std::cout<<endl;
 	std::cout<<"hello world testing!"<<endl;
         std::cout<<" 0. Exit"<<endl;
         std::cout<<" Unit tests for Reservations and Rentals:"<<endl;
